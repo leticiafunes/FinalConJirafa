@@ -1,0 +1,123 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin:0px;
+  padding: 0px;
+  background-color: #e5bc7a;
+}
+
+header {
+  
+  top: 10px;
+  background-color: #e5bc7a;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+}
+
+.portada {
+  width: 70%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloPrincipal {
+  font-size: 80px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: rgb(60, 30, 0);
+  margin: 5px;
+  border: 1px solid;
+  border-color: rgb(73, 37, 0);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 70px;
+  position: absolute;
+  align-items: center;
+  top: 10px;
+  background-color: transparent;
+}
+
+article {
+  height: 100%;
+  background-color: #bdd2ef;
+  width: 60%;
+}
+
+img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  margin: 30px;
+}
+
+.imagenportada {
+  width: 500px;
+  height: 280px;
+  object-fit: cover;
+  margin: 0px;
+  margin: auto;
+}
+
+main {
+  background-color: rgb(166, 157, 74);
+}
+
+.texto {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin: auto;
+  line-height: 25px;
+}
+
+.imagenes {
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+footer {
+  margin: 0px;
+  padding: 15px;
+  background-color: rgb(166, 157, 74);
+  height: 50px;
+  text-align: center;
+}
+
+li {
+  background-color: rgb(166, 157, 74);
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure p {
+  padding: 20px;
+  margin: 10px;
+  text-align: justify;
+  line-height: 25px;
+  
+}
+
+.flotanteder {
+  float: right;
+}
+
+.flotanteizq {
+  float: left;
+}
+
+.titulofoto {
+  font-weight: bold;
+  font-size: 18px;
+}
